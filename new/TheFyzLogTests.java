@@ -13,6 +13,9 @@ import static junit.framework.Assert.fail;
 import static org.assertj.core.api.Java6Assertions.assertThat;
 
 @SuppressWarnings("ConstantConditions")
+/*
+Class is prefixed with 'The' to avoid a collision with the Logger's extraction of the calling method.
+*/
 public class TheFyzLogTests {
 
     @Rule
